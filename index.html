@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>Life</title>
+    <meta charset="utf-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="settingsIcon"></div>
+    <div id="settingsWrapper">
+      <center>
+        <h1 id="settingsClear" class="setting">CLEAR/APPLY</h1>
+        <h1 id="settingsCenter" class="setting">CENTER</h1>
+        <br />
+        <h1>TICK</h1>
+        <input type="range" min=".1" max="2" value=".5" step=".1" class="slider" id="tickSlider" />
+        <h1 id="tickOut">every .5 seconds</h1>
+        <h1>WIDTH</h1>
+        <input type="range" min="1" max="250" value="10" step="1" class="slider" id="widthSlider" />
+        <h1 id="widthOut">30 tiles</h1>
+        <h1>HEIGHT</h1>
+        <input type="range" min="1" max="250" value="10" step="1" class="slider" id="heightSlider" />
+        <h1 id="heightOut">20 tiles</h1>
+      </center>
+    </div>
+    <div id="gameWrapper">
+      <div id="gameContainer"></div>
+    </div>
+  </body>
+</html>
