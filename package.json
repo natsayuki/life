@@ -1,0 +1,22 @@
+{
+  "name": "life",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the42ndturtle/life.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/the42ndturtle/life/issues"
+  },
+  "homepage": "https://github.com/the42ndturtle/life#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
